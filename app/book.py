@@ -158,7 +158,7 @@ def review(book_id):
             #flash('Нельзя менять адрес строки, при повторном нарушении вы будете забанены', 'warning')
             return render_template('book/warning.html', book=book)
         else:
-            return render_templaccte('book/review.html', book=book)
+            return render_template('book/review.html', book=book)
 
 
 
