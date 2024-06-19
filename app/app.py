@@ -122,9 +122,8 @@ def check_review(review_id):
     rating = review.rating
     text = markdown.markdown(review.text)
     status = review.status_id
-    rew_lenth = len(reviews)
 
-    return render_template("reviews/edit.html", review_id=review_id, user=get_user(), rating=rating, text=text, status=status, rew_lenth=rew_lenth)
+    return render_template("reviews/edit.html", review_id=review_id, user=get_user(), rating=rating, text=text, status=status)
 
 @app.route('/checkreview/aprove/<review_id>', methods=['GET', 'POST'])
 @login_required

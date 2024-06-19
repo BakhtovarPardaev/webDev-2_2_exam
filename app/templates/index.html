@@ -17,8 +17,8 @@
                     <p class="card-text">{% for genre in book_genre %}
                         {% if genre.books_id == book.id %}{{ genre.genre.genre_name }}{% endif %}
                         {% endfor %}</p>
-                    <h6 class="card-rating">{{ book.rating }}</h6>
-                    <h6 class="card-reviews">{{ book.reviews|length }}</h6>
+                    <h6 class="card-rating">Оценка: {{ book.rating }}</h6>
+                    <h6 class="card-reviews">Рецензий: {{ book.reviews|length }}</h6>
                     
                     <div class="mt-auto card-footer d-flex justify-content-between align-items-center"
                         style="background-color: transparent;">
