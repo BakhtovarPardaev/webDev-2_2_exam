@@ -177,3 +177,45 @@ TypeError: object of type 'function' has no len()
 [2024-06-19 16:41:02 +0300] [9441] [INFO] Listening at: http://127.0.0.1:5000 (9441)
 [2024-06-19 16:41:02 +0300] [9441] [INFO] Using worker: sync
 [2024-06-19 16:41:02 +0300] [9442] [INFO] Booting worker with pid: 9442
+[2024-06-20 03:26:08 +0300] [9441] [INFO] Handling signal: term
+[2024-06-20 03:26:08 +0300] [9442] [INFO] Worker exiting (pid: 9442)
+[2024-06-20 03:26:08 +0300] [9441] [INFO] Shutting down: Master
+[2024-06-20 03:26:10 +0300] [14857] [INFO] Starting gunicorn 22.0.0
+[2024-06-20 03:26:10 +0300] [14857] [INFO] Listening at: http://127.0.0.1:5000 (14857)
+[2024-06-20 03:26:10 +0300] [14857] [INFO] Using worker: sync
+[2024-06-20 03:26:10 +0300] [14877] [INFO] Booting worker with pid: 14877
+[2024-06-20 08:58:17 +0300] [14857] [INFO] Handling signal: term
+[2024-06-20 08:58:17 +0300] [14877] [INFO] Worker exiting (pid: 14877)
+[2024-06-20 08:58:18 +0300] [14857] [INFO] Shutting down: Master
+[2024-06-20 08:58:19 +0300] [15376] [INFO] Starting gunicorn 22.0.0
+[2024-06-20 08:58:19 +0300] [15376] [INFO] Listening at: http://127.0.0.1:5000 (15376)
+[2024-06-20 08:58:19 +0300] [15376] [INFO] Using worker: sync
+[2024-06-20 08:58:19 +0300] [15377] [INFO] Booting worker with pid: 15377
+[2024-06-20 08:59:30 +0300] [15376] [INFO] Handling signal: term
+[2024-06-20 08:59:30 +0300] [15377] [INFO] Worker exiting (pid: 15377)
+[2024-06-20 08:59:30 +0300] [15376] [INFO] Shutting down: Master
+[2024-06-20 08:59:31 +0300] [15437] [INFO] Starting gunicorn 22.0.0
+[2024-06-20 08:59:31 +0300] [15437] [INFO] Listening at: http://127.0.0.1:5000 (15437)
+[2024-06-20 08:59:31 +0300] [15437] [INFO] Using worker: sync
+[2024-06-20 08:59:31 +0300] [15438] [INFO] Booting worker with pid: 15438
+[2024-06-20 09:00:18 +0300] [15437] [INFO] Handling signal: term
+[2024-06-20 09:00:18 +0300] [15438] [INFO] Worker exiting (pid: 15438)
+[2024-06-20 09:00:18 +0300] [15437] [INFO] Shutting down: Master
+[2024-06-20 09:00:19 +0300] [15508] [INFO] Starting gunicorn 22.0.0
+[2024-06-20 09:00:19 +0300] [15508] [INFO] Listening at: http://127.0.0.1:5000 (15508)
+[2024-06-20 09:00:19 +0300] [15508] [INFO] Using worker: sync
+[2024-06-20 09:00:19 +0300] [15509] [INFO] Booting worker with pid: 15509
+[2024-06-20 09:03:09 +0300] [15508] [INFO] Handling signal: term
+[2024-06-20 09:03:09 +0300] [15509] [INFO] Worker exiting (pid: 15509)
+[2024-06-20 09:03:10 +0300] [15508] [INFO] Shutting down: Master
+[2024-06-20 09:03:11 +0300] [15583] [INFO] Starting gunicorn 22.0.0
+[2024-06-20 09:03:11 +0300] [15583] [INFO] Listening at: http://127.0.0.1:5000 (15583)
+[2024-06-20 09:03:11 +0300] [15583] [INFO] Using worker: sync
+[2024-06-20 09:03:11 +0300] [15584] [INFO] Booting worker with pid: 15584
+[2024-06-20 09:06:56 +0300] [15583] [INFO] Handling signal: term
+[2024-06-20 09:06:56 +0300] [15584] [INFO] Worker exiting (pid: 15584)
+[2024-06-20 09:06:57 +0300] [15583] [INFO] Shutting down: Master
+[2024-06-20 09:06:58 +0300] [15635] [INFO] Starting gunicorn 22.0.0
+[2024-06-20 09:06:58 +0300] [15635] [INFO] Listening at: http://127.0.0.1:5000 (15635)
+[2024-06-20 09:06:58 +0300] [15635] [INFO] Using worker: sync
+[2024-06-20 09:06:58 +0300] [15646] [INFO] Booting worker with pid: 15646
