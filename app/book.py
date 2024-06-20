@@ -154,7 +154,7 @@ def review(book_id):
         flash(f'Отзыв был успешно добавлен на модерацию!', 'success')
         return redirect(url_for('book.show', book_id=book.id))
     else:
-        return render_template('book/review.html', book=book)
+        return rendddder_template('book/review.html', book=book)
 
     
 
