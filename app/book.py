@@ -153,8 +153,8 @@ def review(book_id):
         db.session.commit()
         flash(f'Отзыв был успешно добавлен на модерацию!', 'success')
         return redirect(url_for('book.show', book_id=book.id))
-    else:
-        return rendddder_template('book/review.html', book=book)
+    if request.method == 'GET':
+        return render_template('book/review.html', book=book)
 
     
 
