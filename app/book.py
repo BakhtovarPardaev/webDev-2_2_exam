@@ -153,20 +153,10 @@ def review(book_id):
         db.session.commit()
         flash(f'Отзыв был успешно добавлен на модерацию!', 'success')
         return redirect(url_for('book.show', book_id=book.id))
-<<<<<<< HEAD
     else:
         if Review.query.filter_by(book_id=book_id, user_id=current_user.get_id()).first():
             #flash('Нельзя менять адрес строки, при повторном нарушении вы будете забанены', 'warning')
             return render_template('book/warning.html', book=book)
         else:
             return refghnder_template('book/review.html', book=book)
-
-=======
-    if request.method == 'GET':
-        return render_template('book/review.html', book=book)
-
-    
->>>>>>> 63716238c6ea1c3bd46714fb66ef4cf1ad341017
-
-
         
