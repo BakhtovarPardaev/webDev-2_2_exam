@@ -1,0 +1,179 @@
+[2024-06-16 01:06:57 +0300] [8017] [INFO] Starting gunicorn 22.0.0
+[2024-06-16 01:06:57 +0300] [8017] [INFO] Listening at: http://127.0.0.1:5000 (8017)
+[2024-06-16 01:06:57 +0300] [8017] [INFO] Using worker: sync
+[2024-06-16 01:06:57 +0300] [8019] [INFO] Booting worker with pid: 8019
+[2024-06-19 08:29:30,130] ERROR in app: Exception on /checkreview/18 [GET]
+Traceback (most recent call last):
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/app/app.py", line 125, in check_review
+    rew_lenth = len(reviews)
+                ^^^^^^^^^^^^
+TypeError: object of type 'function' has no len()
+[2024-06-19 08:29:34,962] ERROR in app: Exception on /checkreview/18 [GET]
+Traceback (most recent call last):
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/app/app.py", line 125, in check_review
+    rew_lenth = len(reviews)
+                ^^^^^^^^^^^^
+TypeError: object of type 'function' has no len()
+[2024-06-19 08:30:30,167] ERROR in app: Exception on /checkreview/18 [GET]
+Traceback (most recent call last):
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/app/app.py", line 125, in check_review
+    rew_lenth = len(reviews)
+                ^^^^^^^^^^^^
+TypeError: object of type 'function' has no len()
+[2024-06-19 08:30:38,334] ERROR in app: Exception on /checkreview/18 [GET]
+Traceback (most recent call last):
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/app/app.py", line 125, in check_review
+    rew_lenth = len(reviews)
+                ^^^^^^^^^^^^
+TypeError: object of type 'function' has no len()
+[2024-06-19 08:42:11,955] ERROR in app: Exception on /checkreview/18 [GET]
+Traceback (most recent call last):
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/app/app.py", line 125, in check_review
+    rew_lenth = len(reviews)
+                ^^^^^^^^^^^^
+TypeError: object of type 'function' has no len()
+[2024-06-19 08:42:14,613] ERROR in app: Exception on /checkreview/19 [GET]
+Traceback (most recent call last):
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/app/app.py", line 125, in check_review
+    rew_lenth = len(reviews)
+                ^^^^^^^^^^^^
+TypeError: object of type 'function' has no len()
+[2024-06-19 14:45:12,732] ERROR in app: Exception on /checkreview/21 [GET]
+Traceback (most recent call last):
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/app/app.py", line 125, in check_review
+    rew_lenth = len(reviews)
+                ^^^^^^^^^^^^
+TypeError: object of type 'function' has no len()
+[2024-06-19 15:10:24,275] ERROR in app: Exception on /checkreview/19 [GET]
+Traceback (most recent call last):
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/ve/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/std/webDev-2_2_exam/app/app.py", line 125, in check_review
+    rew_lenth = len(reviews)
+                ^^^^^^^^^^^^
+TypeError: object of type 'function' has no len()
+[2024-06-19 16:41:01 +0300] [8017] [INFO] Handling signal: term
+[2024-06-19 16:41:01 +0300] [8019] [INFO] Worker exiting (pid: 8019)
+[2024-06-19 16:41:01 +0300] [8017] [INFO] Shutting down: Master
+[2024-06-19 16:41:02 +0300] [9441] [INFO] Starting gunicorn 22.0.0
+[2024-06-19 16:41:02 +0300] [9441] [INFO] Listening at: http://127.0.0.1:5000 (9441)
+[2024-06-19 16:41:02 +0300] [9441] [INFO] Using worker: sync
+[2024-06-19 16:41:02 +0300] [9442] [INFO] Booting worker with pid: 9442
